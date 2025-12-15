@@ -1,4 +1,4 @@
-﻿// Program.
+﻿// Program.ss
 using System;
 
 namespace CodeWithIssues
