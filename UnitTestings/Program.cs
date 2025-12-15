@@ -1,4 +1,4 @@
-﻿// Program.cs
+﻿// Program.
 using System;
 
 namespace CodeWithIssues
