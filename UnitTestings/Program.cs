@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace CodeWithIssues
 {
@@ -18,7 +18,6 @@ namespace CodeWithIssues
             Console.WriteLine(Welcome);
             result = SumByMoreOfZero(numOne, numTwo, numThree);
             Console.WriteLine(result == 0 ? Zero : PositiveResult);
-            
 
             int counter = 0;
             while (true)
@@ -35,7 +34,6 @@ namespace CodeWithIssues
         }
         public static int SumByMoreOfZero(int numOne, int numTwo, int numThree)
         {
-           
             if (numOne > 0)
             {
                 if (numTwo > 0)
