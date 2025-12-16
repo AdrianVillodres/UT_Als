@@ -2,7 +2,7 @@
 
 namespace CodeWithIssues
 {
-    class Program
+    static class Program
     {
         //Afegit "public" al Main
         public static void Main(string[] args)
