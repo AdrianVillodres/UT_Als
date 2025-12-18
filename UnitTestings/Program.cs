@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 
 namespace CodeWithIssues
 {
-    static class Program
+    public static class Program
     {
         //Afegit "public" al Main
         public static void Main(string[] args)
@@ -18,22 +18,13 @@ namespace CodeWithIssues
             Console.WriteLine(Welcome);
             result = SumByMoreOfZero(numOne, numTwo, numThree);
             Console.WriteLine(result == 0 ? Zero : PositiveResult);
-
-            int counter = 0;
-            while (true)
-            {
-                counter++;
-                if (counter > 100)
-                {
-                    break;
-                }
-            }
+            //Treiem el while que no ens aporta res
             //Treiem la variable x degut a que no s'utilitza
-
             Console.WriteLine(EndProg);
         }
         public static int SumByMoreOfZero(int numOne, int numTwo, int numThree)
         {
+           
             if (numOne > 0)
             {
                 if (numTwo > 0)
